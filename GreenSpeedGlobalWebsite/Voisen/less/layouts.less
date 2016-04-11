@@ -1,0 +1,584 @@
+/* Layouts */
+.container{
+	max-width: @pagewidth;
+}
+body{
+	background-color: @body_bg_color;
+}
+#main-content .wpb_revslider_element{
+	margin-bottom: 0;
+}
+@media (min-width: 1200px){
+	.container {width: 1200px;}
+}
+.section-element{
+	margin-bottom: 30px;
+	 .wpb_content_element{
+	 	margin-bottom: 10px;
+	 }
+	 &.fullwidth{
+	 	    overflow-x: hidden;
+	 }
+}
+.products-info{
+	display: none;
+}
+
+.header-container{
+	&.third{
+		.topcart .cart-toggler{
+			    background: url(../images/icon-cart2.png) no-repeat 50% 50%;
+		}
+	}
+} 
+/* loading */
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8) url(../images/loading.gif) center center no-repeat;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	display: none;
+}
+
+/* home tab */
+.tabs-content{
+	> div{
+		display: none;
+	}
+	> div:first-child{
+		display: block;
+	}
+}
+
+/* category view option */
+.list-view{
+	> .product{
+		width: 100%;
+		.gridview{
+			display: none;
+		}
+	}
+}
+.grid-view{
+	.listview{
+		display: none;
+	}
+}
+// FAQ
+.section-element{
+	.vc_toggle_title>h4{
+		font-size: 13px;
+		font-weight: normal;
+		text-transform: uppercase;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+// vc_products_title
+
+.vc_widget_title{
+	margin-bottom: 50px;
+	text-align: center;
+	background: url(../images/bkg_testi.png) no-repeat center top;
+	padding: 50px 0 0;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.home-banner{
+	.row{
+		> div{
+			> .vc_column-inner {
+				position: relative;
+				overflow: hidden;
+				.wpb_content_element{
+					margin-bottom: 0;
+				}
+				.wpb_single_image{
+					margin-bottom: 0;
+					img{
+						-webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+						transition: opacity 0.5s, transform 0.5s;
+						-webkit-backface-visibility: hidden;
+						backface-visibility: hidden;
+					}
+				}
+				&:hover{
+					.wpb_single_image{
+						img{
+							opacity: 0.9;
+							-webkit-transform: scale3d(1.1,1.1,1);
+							transform: scale3d(1.1,1.1,1);
+						}
+					}
+				}
+				.wpb_text_column{
+					.wpb_wrapper{
+						position: absolute;
+						left: 0;
+						bottom: 25px;
+						background: #fff;
+						text-align: center;
+						padding: 20px;
+						width: 50%;
+						-webkit-transition: all 0.5s ease-out;
+						-o-transition: all 0.5s ease-out;
+						transition: all 0.5s ease-out;
+					}
+				}
+			}
+		}
+	}
+}
+.home-banner2{
+
+}
+// tab-product
+#main-content{
+	.section-element{
+		.tab-product{
+			.vc_tta-tabs-container{
+				margin:0 0 40px !important;
+				ul.vc_tta-tabs-list{
+					text-align: center;
+					margin: 0;
+					li{				
+						a{
+							background: none;							
+							text-transform: uppercase;
+							font-weight: bold;
+							border: 0;
+							color: @darkcolor;
+							padding: 0;
+							span{
+								position: relative;
+								padding: 0 23px;
+								&:before{
+									font-family: FontAwesome;
+									content: "\f111";
+									position: absolute;
+									left: 10px;
+									bottom: -4px;
+									font-size: 6px;
+								}
+							}
+							&:after,&:before{
+								display: none;
+							}
+							&:hover{
+								color: @primarycolor;
+							}
+						}
+						&.vc_active{
+							a{
+								color: @primarycolor;
+							}
+						}
+					}
+				}
+			}
+			.vc_tta-panels-container{
+				.vc_tta-panels{
+					border: 0;
+					padding: 0;
+					background: none;
+					margin: 0;
+					.vc_tta-panel{
+						.vc_tta-panel-body{
+							border: 0;
+							padding: 0;
+							background: none;
+							margin: 0;
+
+						}
+					}
+				}
+			}
+		}
+		.vc_tta-container{
+			> h2{
+				margin-bottom: 40px;
+				text-align: center;
+				background: url(../images/bkg_testi.png) no-repeat center top;
+				padding: 50px 0 0;
+				font-size: 24px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+			}
+		}
+	}
+}
+
+// testimonials-carousel
+.section-element{
+	.testimonials-title{
+		.widget_text{
+			text-align: center;
+			background: url(../images/bkg_testi.png) no-repeat center top;
+			padding:50px 0 0;
+			margin-bottom: 30px;
+			.textwidget{
+				h3,h4{
+					color:#fff;
+					text-transform: uppercase;
+					font-size: 24px;
+					font-weight: bold;
+					letter-spacing: 1px;
+					margin-bottom: 10px;
+
+				}
+			}
+		}
+	}
+
+	.testimonials{
+		.quote{
+			text-align: center;
+			.testimonials-text{
+				border: 0;
+					color:#dad9d9;
+					font-size: 13px;
+					display: inline-block;
+					max-width: 777px;
+					line-height: 24px;
+					font-style: italic;
+					position: relative;
+					font-weight: normal;
+			}
+			.author{
+				text-transform: uppercase;
+				 color:#dad9d9;
+				margin: 20px 0 0;
+				display: block;
+				font-size: 12px;
+				font-style: normal;
+			}
+		}
+	}
+}
+.contact-7,.contact-us{
+	.wpb_content_element{
+		margin-bottom: 35px;
+	}
+	.widgettitle{
+		color:#dad9d9;
+		font-size: 24px;
+		position: relative;
+		margin: 0 0 30px;
+		&:after{
+			content: "";
+			display: block;
+			border-top: dotted 1px #fff;
+			width: 95px;
+			margin: 10px 0 0;
+		}
+	}
+}
+.contact-us{
+	padding-right: 5px;
+	.textwidget{
+		color:#dad9d9;
+		ul{
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			li{
+				margin: 0 0 10px;
+				span{
+					width: 31px;
+					height: 31px;
+					line-height: 31px;
+					text-align: center;
+					border: 1px solid #fff;
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+}
+
+.widget_wysija_cont{
+	.wysija-paragraph{
+		width: 60%;
+		float: left;
+		position: relative;
+		input{
+			height: 38px;
+			width: 100%;
+			background: none;
+			border: 1px solid #fff;
+		}
+		.formError{
+			left: 0 !important;
+			top: 100% !important;
+		}
+	}
+	.wysija-submit{
+		float: left;
+		margin: 0 0 10px 15px;
+		.buttonMixin();
+		background: none;
+		border: 1px solid #fff;
+	}
+}
+.section-element{
+	.contact-7{
+		padding-left: 5px;
+		.wpb_content_element{
+			margin-bottom: 0;
+		}
+		.widgettitle{
+			margin: 0 0 23px;
+		}
+		.wpcf7{
+			color: #fff;
+			font-size: 13px;
+			font-weight: 300;
+			.wpcf7-form{
+				p:nth-child(2),p:nth-child(3){
+					max-width:49%;
+					width: 100%;
+					float: left;
+					margin-right:1%;
+				}
+				p:nth-child(4){
+					clear: both;
+				}
+				br{
+					display: none;
+				}
+				p{
+					span{
+						display: block;
+					}
+				}
+			}
+			input{
+				width: 100%;
+				max-width:100%;
+				border: 1px solid #fff;
+				background: none;
+				height: 35px;
+				line-height: 35px;
+			}
+			textarea{
+				width: 100%;
+				max-width:99%;
+				height: 111px;
+				background: none;
+				border: 1px solid #fff;
+			}
+			.wpcf7-submit{
+				font-size: 12px;
+				text-transform: uppercase;
+				font-weight: bold;
+				letter-spacing: 3px;
+				&:hover{
+					background: @primarycolor;
+				}
+			}
+		}
+	}
+	
+}
+// contact-us pages
+.wpcf7{
+	font-size: 10px;
+	input,textarea{
+		width: 100%;
+		background: none;
+	}
+	.wpcf7-textarea{
+		height: 100px;
+	}
+	.wpcf7-submit{
+		.buttonMixin();
+		width: auto;
+	}
+
+}
+.page-contacts{
+	.widgettitle{
+		border-bottom: 1px solid @bordercolor;
+		font-size: 25px;
+		padding: 0 0 10px;
+		text-transform: capitalize;
+	}
+}
+// banner-home
+
+.banner-home{
+	.row{
+		margin-left: 0;
+		margin-right: 0;
+		> div{
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+}
+.brand_widget{
+	margin: 20px 0 0;
+	border-top: 1px solid @bordercolor;
+	padding: 30px 0 0;
+}
+// corporate
+
+.corporate{
+	.vc_icon_element{
+
+	}
+}
+.corporate2{
+	.vc_icon_element{
+		float: left;
+	}
+	.widget_text{
+		overflow: hidden;
+		zoom: 1;
+		padding-left: 10px;
+		padding-top: 10px;
+		.widgettitle{
+			margin-bottom: 5px;
+			font-size: 14px;
+		}
+	}
+}
+// banner-home
+
+.banner-home,.banner-home2{
+	.wpb_single_image{
+		figure{
+			overflow: hidden;
+			position: relative;
+			img{
+				-webkit-transition: opacity 1s, -webkit-transform 1s;
+				transition: opacity 1s, transform 1s;
+				-webkit-backface-visibility: hidden;
+				backface-visibility: hidden;
+			}
+
+			&:hover{
+				background: -webkit-linear-gradient(-45deg, #EC65B7 0%,#05E0D8 100%);
+				background: linear-gradient(-45deg, #EC65B7 0%,#05E0D8 100%);
+				-webkit-transition: background .3s ease-in-out;
+				img{
+					opacity: 0.9;
+					-webkit-transform: scale3d(1.1,1.1,1);
+					transform: scale3d(1.1,1.1,1);
+				}
+			}
+
+		}
+	}
+}
+// featured
+
+.featured-product{
+	.row{
+		margin: 0;
+		> div{
+			padding: 0;
+		}
+	}
+	.vc_column-inner{
+		> div{
+			margin-bottom: -10px;
+		}
+	}
+	.widget_text{
+		.widgettitle{
+			color: #fff;
+		}
+		.textwidget{
+			color: #a3a3a3;
+			font-size: 14px;
+			line-height: 25px;
+			font-weight: 300;
+		}
+	}
+	.inner-content{
+		background-color: #fff;
+		.products-block{
+			.product{
+				margin-bottom: 0;
+				.product-wrapper{
+					.list-col8{
+						display: none;
+					}
+					.list-col4{
+						.actions{
+							display: none;
+						}
+						.product-image{
+							.products-info{
+								display: block;
+								position: absolute;
+								width: 100%;
+								left: 0;
+								bottom: 0;
+								background-color:#2b2b2b;
+								padding: 10px;
+								z-index: 11;
+								.product-name{
+									float: left;
+									max-width: 60%;
+									font-size: 13px;
+									margin: 0;
+									a{
+										color: #fff;
+										font-weight: 300;
+										&:hover{
+											color: @primarycolor;
+										}
+									}
+								}
+								.price-box{
+									float: right;
+									max-width: 40%;
+									font-size: 13px;
+									color: @primarycolor;
+									line-height: 1;
+									del .amount{
+										font-size: 12px;
+										color: #fff;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// list-products
+
+.list-products{
+	.vc_widget_title{
+		text-align: left;
+		background: none;
+		padding:0;
+		position: relative;
+		z-index: 1;
+		span{
+			display: inline-block;
+			padding-right: 15px;
+			background: #fff;
+			&:after{
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 10px;
+				width: 100%;
+				z-index: -1;
+				border-bottom: double 4px @bordercolor;
+			}
+		}
+	}
+}

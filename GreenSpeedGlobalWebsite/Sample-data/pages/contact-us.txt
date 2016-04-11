@@ -1,0 +1,11 @@
+[vc_row fullwidth="1"][vc_column][vc_gmaps link="#E-8_JTNDaWZyYW1lJTIwc3JjJTNEJTIyaHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRm1hcHMlMkZlbWJlZCUzRnBiJTNEJTIxMW0xOCUyMTFtMTIlMjExbTMlMjExZDEwMTgwLjcxNjU2Mzg2MTg3JTIxMmQtMTEyLjAxMDg0MzAzODIwNTQ4JTIxM2Q0MC42NTc1NDgwMDc4ODU4MSUyMTJtMyUyMTFmMCUyMTJmMCUyMTNmMCUyMTNtMiUyMTFpMTAyNCUyMTJpNzY4JTIxNGYxMy4xJTIxM20zJTIxMW0yJTIxMXMweDg3NTI4ZDg2OWQxZWUyMGQlMjUzQTB4MzM1YjJmNzMxMDU5NjA1YSUyMTJzVVNBTkElMkJBbXBoaXRoZWF0cmUlMjE1ZTAlMjEzbTIlMjExc3ZpJTIxMnMlMjE0djE0NTE3MTAzMTI5MjklMjIlMjB3aWR0aCUzRCUyMjYwMCUyMiUyMGhlaWdodCUzRCUyMjQ1MCUyMiUyMGZyYW1lYm9yZGVyJTNEJTIyMCUyMiUyMHN0eWxlJTNEJTIyYm9yZGVyJTNBMCUyMiUyMGFsbG93ZnVsbHNjcmVlbiUzRSUzQyUyRmlmcmFtZSUzRQ=="][/vc_column][/vc_row][vc_row el_class="page-contacts"][vc_column width="1/2" css=".vc_custom_1451917301982{padding-right: 10px !important;padding-left: 10px !important;}"][vc_wp_text title="Leave a comments"][/vc_wp_text][contact-form-7 id="4" title="Contact Us"][/vc_column][vc_column width="1/2" css=".vc_custom_1451917293059{padding-right: 10px !important;padding-left: 10px !important;}"][vc_wp_text title="Contact details"]Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis sed neque vitae bibendum. Nunc auctor dictum risus, a finibus eros iaculis nec. Sed et euismod felis, non euismod est. Maecenas quis nulla ullamcorper, imperdiet lacus et, porta sem.
+<h5>OFFICE ADDRESS</h5>
+Maecenas quis nulla ullamcorper
+<h5>EMAIL</h5>
+lion-themes@gmail.com
+<h5>PHONE NUMBER</h5>
+025 1234 5678 – 025 1234 5779
+<h5>TIME HOURS</h5>
+Monday to Friday: 10am to 7pm
+Saturday: 10am to 4pm
+Sunday: 12am to 4pm[/vc_wp_text][/vc_column][/vc_row]

@@ -1,0 +1,13 @@
+<p>Your Name (required)<br />
+    [text* your-name] </p>
+
+<p>Your Email (required)<br />
+    [email* your-email] </p>
+
+
+<p>Comment<br />
+    [textarea* your-message] </p>
+
+<p>* Required Fields</p>
+
+<p>[submit "Send"]</p>

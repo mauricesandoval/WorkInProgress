@@ -1,0 +1,135 @@
+/* Responsive style sheet */
+
+.visible-large {
+	display: block;
+}
+.visible-small {
+	display: none;
+}
+@media screen and ( max-width: 1199px ) {
+
+}
+@media screen and (max-width: 992px) {
+	.woocommerce div.main-wrapper .woocommerce-tabs .panel #reviews{
+		 #comments,#review_form_wrapper{
+		 	width: 100%;
+		 	padding: 0;
+		 	border: 0;
+		 	 #review_form #commentform input{
+		 	 	max-width: 100%;
+		 	 }
+		 }	
+	}
+	.header-container{
+		&.third{
+			.nav-menus{
+				background: @bgnavmenu;
+			}
+		}
+	}
+	#secondary{
+		clear: both;
+	}
+}
+@media screen and (max-width: 767px) {
+	.header-container{
+		&.first,&.third {
+			.top-bar{
+				text-align: center;
+				.welcome-message,.top-menu,.widgets-top{
+					display: inline-block;
+					float: none !important;
+					vertical-align: middle;
+					margin: 0 10px;
+				}
+			}
+			.header{
+				text-align: center;
+				.top-search{
+					display: inline-block;
+					float: none !important;
+					margin-bottom: 15px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) and (min-width: 479px){
+	.shop-products.grid-view .item-col{
+		width: 50%;
+	}
+	.shop-products.grid-view .item-col:nth-of-type(2n+1){
+		clear: left;
+	}
+	.shop-products.grid-view .product.first{
+		clear: none;
+	}
+	.product_list_widget .item-product-widget:nth-of-type(2n+1){
+		clear: left;
+	}
+}
+
+
+@media screen and (max-width: 479px) {
+	.header-container{
+		&.second{
+			.container-fluid{
+				>div{
+					width: 100%;
+					.logo{
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	.single-post .comments-area .info-wrapper{
+		width: 100%;
+		margin-right: 0;
+	}
+	.main-wrapper .site-content .woocommerce table.shop_table{
+		thead tr th{
+			text-transform: capitalize;
+			font-size: 12px;
+		}
+		td{
+			padding: 5px;
+		}
+		.product-subtotal{
+			display: none;
+		}
+		tbody tr td.actions .coupon .button{
+			float: left !important;
+		}
+	}
+	.section-element .contact-7 .wpcf7 {
+		.wpcf7-form p:nth-child(2),.wpcf7-form p:nth-child(3){
+			max-width: 100%;
+			margin-right: 0;
+		}
+	}
+	.widget_wysija_cont .wysija-paragraph{
+		width: 100%;
+	}
+	.product_list_widget .item-product-widget{
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 1440px) and (min-width: 767px){
+
+	.contact-us,.contact-7{
+		.vc_column-inner{
+			min-height: 550px;
+		}
+	}
+}
+@media (max-width: 1920px) and (min-width: 1439px){
+
+	.contact-us,.contact-7{
+		.vc_column-inner{
+			min-height: 470px;
+		}
+	}
+}
